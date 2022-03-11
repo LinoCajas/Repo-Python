@@ -21,3 +21,6 @@ v3="c"
 print(v1+v2+v3)
 print(v1,v2,v3)
 print("asdasd",a)
+#input
+nombr = input("Ingrese su nombre:")
+print("Hola "+nombr)
