@@ -24,3 +24,6 @@ print("asdasd",a)
 #input
 nombr = input("Ingrese su nombre:")
 print("Hola "+nombr)
+#uso del for
+for item in miLista:
+    print(item)
