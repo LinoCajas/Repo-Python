@@ -15,9 +15,10 @@ def isPrime(num):
         nadiv += 1
 
     if residuo == 2:
-        print(f"El numero {num} es primo")
-    else:
-        print(f"El numero {num} no es primo")
+        #print(f"El numero {num} es primo")
+        return num
+    #else:
+        #print(f"El numero {num} no es primo")
 
 #numero = input("Ingrese un numero para saber si es primo o no: ")
 #isPrime(int(numero))
