@@ -7,12 +7,12 @@
 
 
 def isPrime(num):
-    divisiones, residuo = 1, 0
+    nadiv, residuo = 1, 0
 
-    while(divisiones <= num):
-        if (num % divisiones) == 0:
+    while(nadiv <= num):
+        if (num % nadiv) == 0:
             residuo += 1
-        divisiones += 1
+        nadiv += 1
 
     if residuo == 2:
         print(f"El numero {num} es primo")
