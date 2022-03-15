@@ -10,11 +10,11 @@ Created on Sun Mar 13 20:42:05 2022
     
 def l100kmtompg(litres):
     gallons = litres / 3.785411784
-    miles = 100 * 1000 / 1609.344
+    miles = 100 * (1000 / 1609.344)
     return miles / gallons
 
 def mpgtol100km(miles):
-    km100 = miles * 1609.344 / 1000 / 100
+    km100 = miles * (1609.344 / 1000) / 100
     litres = 3.785411784
     return litres / km100
 

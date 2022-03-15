@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar 11 18:13:24 2022
-
 @author: lio
 """
 

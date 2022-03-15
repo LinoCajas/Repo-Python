@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar 11 20:55:48 2022
-
 @author: lio
 """
 #variables globales
@@ -17,11 +15,11 @@ km = milla / 1000
 #ejercicios conversion
 def l100kmtompg (litros):
     mpg = (100 * galon)/(km * litros)
-    print(f"El valor en millas por galon es: {mpg} mpg")
+    return f"El valor en millas por galon es: {mpg} mpg"
     
 def mpgtol100km (millas):
     l100km = (100 * galon)/(km * millas)
-    print(f"El valor en litros/100km: {l100km} l100km")
+    return f"El valor en litros/100km: {l100km} l100km"
     
 print(l100kmtompg(3.9))
 print(l100kmtompg(7.5))
